@@ -1,0 +1,79 @@
+.textCenter {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    image-rendering: crisp-edges;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.header .nav {
+    display: flex;
+    justify-content: space-around;
+    justify-items: stretch;
+}
+
+.nav .navItem {
+    /* display: inline-block; */
+    font-size: 1.25rem;
+}
+
+.main .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/free-photo/smooth-waves-vibrant-colors-flow-abstractly-generated-by-ai_188544-9810.jpg");
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 24rem;
+}
+
+.bannerText {
+    background-color: aliceblue;
+    border-radius: 08%;
+}
+
+.banner h2,
+.banner h3 {
+    color: black;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0.36rem;
+}
+
+/* PRODUCTS */
+.productContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+
+
+}
+
+.productItem {
+    display: inline-block;
+    width: 12rem;
+    height: 12rem;
+    margin: 1.8rem 1.4rem;
+}
+
+.productItem h3 {
+    margin: 0;
+    text-align: center;
+}
