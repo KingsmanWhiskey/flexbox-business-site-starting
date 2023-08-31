@@ -113,3 +113,20 @@ img {
     text-align: center;
     color: white;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    /* justify-content: space-around; */
+}
+
+.footerItem {
+    inherits: h3;
+    text-align: center;
+}
+
+.copyright {
+    vertical-align: bottom;
+    justify-self: baseline;
+}
